@@ -1,0 +1,20 @@
+carddb = {
+	"cards" : [
+		{
+			"id": 0,
+			"action": "if ( pos.y<-5 && pos.x<2 && pos.x>-2 ) { pos.y*=-1; pos.x-=5 }"
+		},
+		{
+			"id": 1,
+			"action": "pos.y+=1"
+		},
+		{
+			"id": 2,
+			"action": "pos.y+=2; pos.x+=3"
+		},
+		{
+			"id": 3,
+			"action": "pos.y+=3; if ( pos.y%2==1 ) { pos.y-=1 } else { pos.y+=1 }"
+		}
+	]
+}
